@@ -6,7 +6,10 @@ object App {
     println( "Hello World!" )
     val par = new FileHandling
     par.writer()
+    println("Writing Executed")
     par.reader()
+    println("ReadingExecuted")
+
   }
 
 }
